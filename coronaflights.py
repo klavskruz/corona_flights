@@ -12,7 +12,7 @@ DATABASE_LOCATION = "sqlite:///corona_flight_data.sqlite"
 
 class CovidDataFinder:
     headers = {
-    'x-rapidapi-key': "bf7aa826admsh914e2032ba16661p12d507jsnd32e0f8f48a5",
+    'x-rapidapi-key': "key here",
     'x-rapidapi-host': "covid1910.p.rapidapi.com"
     }
     def get_confirmed_cases(self ,country: str, date: str):
