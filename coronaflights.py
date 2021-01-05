@@ -59,8 +59,8 @@ class FlightPriceFinder:
 
         data = {
             'grant_type': 'client_credentials',
-            'client_id': 'PswWPQCMH9MMDPnD8IhoqjvpCUKD1hSA',
-            'client_secret': 'mlUJuUXZVSLz5ve9'
+            'client_id': 'client id here',
+            'client_secret': 'secret here'
                 }
 
         response = requests.post('https://test.api.amadeus.com/v1/security/oauth2/token', headers=headers, data=data)
